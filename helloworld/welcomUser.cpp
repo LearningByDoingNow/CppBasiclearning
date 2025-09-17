@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 // 函数定义
 void welcomUser( string name){
     cout<<"Hello," <<name << endl <<  "  Welocom to Cpp World!" << endl;
