@@ -27,7 +27,7 @@ x86/
 out/
 
 # IDE 和编辑器文件
-.vscode/
+# .vscode/
 .idea/
 *.user
 *.sdf
