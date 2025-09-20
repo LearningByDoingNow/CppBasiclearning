@@ -15,5 +15,18 @@ int main(){
     cout << "vist string char:  " ;
     cout << str1[0] << "\t" << str3.at(2) << "\t" << *(str3.begin() + 2) << endl;
 
+
+    /*
+    string str;
+    cin >> str;
+    cout << "You input string is: " << str << endl;
+    */
+
+
+    cout << "getline :" << endl;
+    getline(cin,str2);
+    cout << "You input string is: " << str2 << endl;
+    cout << "You input string length is: " << str2.length() << endl;
+
     return 0;
 }
