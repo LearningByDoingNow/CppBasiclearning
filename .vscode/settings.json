@@ -38,6 +38,25 @@
         "vector": "cpp",
         "memory": "cpp",
         "streambuf": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "fstream": "cpp",
+        "limits": "cpp",
+        "iosfwd": "cpp",
+        "text_encoding": "cpp",
+        "cctype": "cpp",
+        "climits": "cpp",
+        "clocale": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "iterator": "cpp",
+        "queue": "cpp",
+        "stdexcept": "cpp",
+        "*.rh": "cpp",
+        "cerrno": "cpp",
+        "locale": "cpp"
     }
 }
