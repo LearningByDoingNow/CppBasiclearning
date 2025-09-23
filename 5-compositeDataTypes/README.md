@@ -363,4 +363,146 @@ s_1 += s_2; // 字符串拼接
 
 ![alt text](.\images\15.png)  
 ![alt text](.\images\16.png)  
+![alt text](.\images\17.png)    
 
+
+
+## 结构体 struct
+
+![alt text](.\images\18.png)   
+![alt text](.\images\19.png)  
+![alt text](.\images\20.png)  
+
+
+**访问结构体的成员**
+```cpp
+zhangsan.name; // 访问结构体的成员
+zhangsan.age; // 访问结构体的成员
+zhangsan.height; // 访问结构体的成员
+zhangsan.weight; // 访问结构体的成员
+zhangsan.address; // 访问结构体的成员
+zhangsan.phone; // 访问结构体的成员
+zhangsan.email; // 访问结构体的成员
+```  
+
+![alt text](.\images\21.png)  
+
+
+## 枚举 enum
+```cpp
+enum Color{
+    RED,
+    GREEN,
+    BLUE
+};
+int main(){
+    Color c = RED,r = GREEN;
+    Color mm = Color(2);
+}
+
+```
+![alt text](.\images\22.png)  
+
+![alt text](.\images\23.png)   
+
+# 指针 pointer
+
+![alt text](.\images\24.png)   
+![alt text](.\images\25.png)  
+
+> 简单理解就是 **&**就是取地址 **\***就是解引用
+- *p 表示 指针p指向的内存中的数据
+- p 表示 指针p指向的内存地址
+- &a 表示 变量a的内存地址
+- *p = 100; 表示 指针p指向的内存中的数据为100
+- p = &a; 表示 指针p指向变量a的内存地址 *p 就是 a 对应的数据
+```cpp
+int main(){
+    int a = 10;
+    int *p = &a;
+    cout << *p << endl;
+    int b = 20;
+    p = &b;
+    cout << *p << endl;
+    return 0;
+}
+```  
+
+
+
+![alt text](.\images\26.png)   
+![alt text](.\images\27.png)  
+
+![alt text](.\images\28.png)  
+
+![alt text](.\images\29.png)   
+
+![alt text](.\images\30.png)  
+
+
+**指向常量的指针 只能指向常量，不能指向变量** 
+- 该指针 指向的数据是一个常量 不能通过该指针修改指向的数据
+- 该指针定义 `const int *p`
+
+```cpp
+const int a = 10;
+const int *p = &a;  // 指向常量的指针 只能指向常量，不能指向变量
+```
+**指针常量 只能指向变量，不能指向常量** 
+- 该指针 指向的地址不能变  即该指针的指向不能改变
+- 该指针定义 `int * const p = &a`
+```cpp
+
+int pi = 3.14;
+int * const p = &a;  // 指针常量 只能指向变量，不能指向常量
+```
+**指向常量的指针常量 既不能指向变量，也不能指向常量** 
+- 首先是指针常量 那么结构应为 `const int *p`
+- 然后是指向常量的 {指针常量} 那么应为 `const int * const p = &a`
+
+```cpp
+const int a = 10;
+const int * const p = &a;  // 指向常量的指针常量 既不能指向变量，也不能指向常量
+```  
+
+## 指针和数组的关系  
+- 指针和数组的关系
+  - **数组名** 就是 数组的首地址
+  - **指针** 可以指向 数组的首地址
+  - **数组名** 可以 作为 **指针** 来使用
+  - **指针** 可以 指向 **数组的 任意一个元素**
+  - 数组名 可以 作为 指针 来使用 但是 只能 指向 数组的 首地址
+  - 指针 可以 指向 数组的 任意一个元素 但是 数组名 只能 指向 数组的 首地址
+```cpp
+int a[5] = {1,2,3,4,5};
+int *p = a; // 数组名 可以 作为 指针 来使用
+p = &a[0]; // 指针 可以 指向 数组的 任意一个元素
+```  
+
+![alt text](.\images\31.png)  
+![alt text](.\images\32.png)  
+![alt text](.\images\33.png)   
+
+- 指针数组 
+    - 指针数组 指的是 数组中的每一个元素都是 指针
+- 数组指针
+    - 数组指针 指的是 一个指针 指向的 是一个数组
+    - 类似于指向指针的 指针  
+
+
+
+# 引用 
+- 引用就是原来的 别名 并没有创建新的空间
+- 操作别名 就相当于 操作了 原来的数据
+```cpp
+int a = 10;
+int &c  = a; // 引用 就是 原来的 别名 没有创建新的空间
+// 引用的引用
+int &d = c; // 引用的引用 就是 原来的 别名 没有创建新的空间
+//对常量的引用
+const int z = 10;
+const int &ref = a; // 对常量的引用
+```
+
+![alt text](.\images\34.png)  
+![alt text](.\images\35.png)   
