@@ -1,0 +1,4 @@
+
+expenditure 100  1758780178
+income 100 woshinibaba 1758780662
+expenditure 10 have lunch now  1758780672

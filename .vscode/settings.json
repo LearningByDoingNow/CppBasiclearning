@@ -57,6 +57,8 @@
         "stdexcept": "cpp",
         "*.rh": "cpp",
         "cerrno": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "chrono": "cpp",
+        "sstream": "cpp"
     }
 }
