@@ -1,4 +1,5 @@
-
-expenditure 100  1758780178
+expenditure 100 daw 1758780178
 income 100 woshinibaba 1758780662
-expenditure 10 have lunch now  1758780672
+expenditure 10 haveLunch  1758780672
+income 0 today 0 income 1758780788
+expenditure 60.7 nonoon 1758780798

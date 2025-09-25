@@ -56,6 +56,7 @@ void addAccountItem(vector<AccountItem> &items){
 }
 
 void searchAccountItem(vector<AccountItem> &items){
+    loadAccountDataFromFile(items);
     showSearchMenu();
     while(true){
         char key = readUserInput(4);
