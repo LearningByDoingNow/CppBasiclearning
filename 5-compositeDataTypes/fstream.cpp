@@ -20,7 +20,7 @@ int main(){
     //2. 逐行读取
     string line;
     cout << "according to the line to read and output:" << endl;
-    while(infile >> line){
+    while(getline(infile,line)){
         cout << line << endl;
         // 写入到输出文件
         outfile << line << endl;
