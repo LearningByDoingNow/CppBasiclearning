@@ -20,7 +20,7 @@ int main(){
 
 }
 ```  
-![alt text](.\images\2.png)   
+![alt text](./images/2.png)   
 
 ### 数组访问
 1. 访问数组元素  ： 索引 / 下标  数组名[索引] ，如果超出数组范围，那么会导致**未定义行为**。 索引范围是 **0~数组长度-1**  
@@ -120,9 +120,9 @@ int main(){
 }
 ```  
 ### 选择排序
-![alt text](.\images\4.png)  
+![alt text](./images/4.png)  
 ### 冒泡排序
-![alt text](.\images\5.png)  
+![alt text](./images/5.png)  
 
 
 > 数组虽然能够存储多个相同类型的数据，但是数组的长度是固定的，一旦定义了数组的长度，那么就不能改变数组的长度。  
@@ -141,7 +141,7 @@ std::vector 是 C++ 标准模板库（STL）中的一个容器，它表示一个
 自动管理内存：当添加或删除元素时，vector 会自动处理内存分配和释放。
 类型安全：每个 vector 只能存储一种特定类型的数据。
 
-![alt text](.\images\6.png)  
+![alt text](./images/6.png)  
 ### 头文件和命名空间  
 > vector 是标准库中的一部分，如果使用，需要引用头文件 <vector> ，并使用命名空间 std。  
 
@@ -185,7 +185,7 @@ int main(){
 
 ```
 
-![alt text](.\images\7.png)  
+![alt text](./images/7.png)  
 **vector常用方法**    
 1. 访问元素依然通过 索引 来访问
     特殊：
@@ -244,11 +244,11 @@ int main(){
     v_1.clear(); // 删除vector中的所有元素
 }
 ```  
-![alt text](.\images\8.png)
+![alt text](./images/8.png)
 
 ## 字符串 String 
-![alt text](.\images\9.png)  
-![alt text](.\images\10.png)    
+![alt text](./images/9.png)  
+![alt text](./images/10.png)    
 ```cpp
 #include<iostream>
 #include<string>
@@ -306,7 +306,7 @@ s_1 > s_2; // 比较两个字符串的大小
 s_1 <= s_2; // 比较两个字符串的大小
 s_1 >= s_2; // 比较两个字符串的大小
 ```  
-![alt text](.\images\12.png)  
+![alt text](./images/12.png)  
 
 8. 清空字符串
 ```cpp
@@ -331,12 +331,12 @@ s_1 + s_2; // 字符串拼接
 s_1 += s_2; // 字符串拼接
 ```
 
-![alt text](.\images\11.png)  
+![alt text](./images/11.png)  
 
-![alt text](.\images\13.png)    
+![alt text](./images/13.png)    
 
 ## 字符数组
-![alt text](.\images\14.png)
+![alt text](./images/14.png)
 
 ## C++ 迭代器知识点
 ### 什么是迭代器？
@@ -361,17 +361,17 @@ s_1 += s_2; // 字符串拼接
 
 ## 读取输入的字符  
 
-![alt text](.\images\15.png)  
-![alt text](.\images\16.png)  
-![alt text](.\images\17.png)    
+![alt text](./images/15.png)  
+![alt text](./images/16.png)  
+![alt text](./images/17.png)    
 
 
 
 ## 结构体 struct
 
-![alt text](.\images\18.png)   
-![alt text](.\images\19.png)  
-![alt text](.\images\20.png)  
+![alt text](./images/18.png)   
+![alt text](./images/19.png)  
+![alt text](./images/20.png)  
 
 
 **访问结构体的成员**
@@ -385,7 +385,7 @@ zhangsan.phone; // 访问结构体的成员
 zhangsan.email; // 访问结构体的成员
 ```  
 
-![alt text](.\images\21.png)  
+![alt text](./images/21.png)  
 
 
 ## 枚举 enum
@@ -401,14 +401,14 @@ int main(){
 }
 
 ```
-![alt text](.\images\22.png)  
+![alt text](./images/22.png)  
 
-![alt text](.\images\23.png)   
+![alt text](./images/23.png)   
 
 # 指针 pointer
 
-![alt text](.\images\24.png)   
-![alt text](.\images\25.png)  
+![alt text](./images/24.png)   
+![alt text](./images/25.png)  
 
 > 简单理解就是 **&**就是取地址 **\***就是解引用
 - *p 表示 指针p指向的内存中的数据
@@ -430,14 +430,14 @@ int main(){
 
 
 
-![alt text](.\images\26.png)   
-![alt text](.\images\27.png)  
+![alt text](./images/26.png)   
+![alt text](./images/27.png)  
 
-![alt text](.\images\28.png)  
+![alt text](./images/28.png)  
 
-![alt text](.\images\29.png)   
+![alt text](./images/29.png)   
 
-![alt text](.\images\30.png)  
+![alt text](./images/30.png)  
 
 
 **指向常量的指针 只能指向常量，不能指向变量** 
@@ -479,9 +479,9 @@ int *p = a; // 数组名 可以 作为 指针 来使用
 p = &a[0]; // 指针 可以 指向 数组的 任意一个元素
 ```  
 
-![alt text](.\images\31.png)  
-![alt text](.\images\32.png)  
-![alt text](.\images\33.png)   
+![alt text](./images/31.png)  
+![alt text](./images/32.png)  
+![alt text](./images/33.png)   
 
 - 指针数组 
     - 指针数组 指的是 数组中的每一个元素都是 指针
@@ -504,5 +504,5 @@ const int z = 10;
 const int &ref = a; // 对常量的引用
 ```
 
-![alt text](.\images\34.png)  
-![alt text](.\images\35.png)   
+![alt text](./images/34.png)  
+![alt text](./images/35.png)   
