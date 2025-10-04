@@ -5,9 +5,9 @@ Cpp中 一句代码就表示一个语句，一般语句是以';'结束的。
   
 简单语句   表达式语句 复合语句（流程控制语句 ） -->compound statement 也叫做块 block  
 
-![alt text](.\images\1.png)  
+![alt text](./images/1.png)  
 ## 条件分支语句
-![alt text](.\images\2.png)  
+![alt text](./images/2.png)  
 ```cpp
 #include<iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main(){
     return 0;
 }
 ```  
-![alt text](.\images\3.png)  
+![alt text](./images/3.png)  
 
 ## switch 语句
 ```cpp
@@ -59,7 +59,7 @@ int main(){
     return 0;
 }
 ```  
-![alt text](.\images\4.png)  
+![alt text](./images/4.png)  
 
 ## 循环语句
 Cpp语法中循环语句包含 while ， do while , for 循环  
@@ -137,7 +137,7 @@ Cpp中 跳转语句有 break ， continue ， goto 语句
 
 ###** goto **
 
-![alt text](.\images\5.png)  
+![alt text](./images/5.png)  
 
 ```cpp
 #include<iostream>

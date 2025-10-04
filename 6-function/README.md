@@ -1,11 +1,11 @@
 # 函数  
 
-![alt text](.\images\1.png)    
-![alt text](.\images\2.png)    
-![alt text](.\images\3.png)   
-![alt text](.\images\4.png)  
-![alt text](.\images\5.png)  
-![alt text](.\images\6.png) 
+![alt text](./images/1.png)    
+![alt text](./images/2.png)    
+![alt text](./images/3.png)   
+![alt text](./images/4.png)  
+![alt text](./images/5.png)  
+![alt text](./images/6.png) 
 
 
 
@@ -34,12 +34,12 @@
 
 引用传参： 引用是变量的别名，在语法上更像直接操作原始变量，但底层实现通常也是通过地址。
 ```
-![alt text](.\images\7.png)  
+![alt text](./images/7.png)  
 
 
-![alt text](.\images\8.png)  
+![alt text](./images/8.png)  
 
-![alt text](.\images\9.png)
+![alt text](./images/9.png)
 
 ## 内联函数
 ```cpp
@@ -49,11 +49,11 @@ inline int func(int a, int b) {
 }   
 ``` 
 
-![alt text](.\images\10.png)
-![alt text](.\images\11.png)   
-![alt text](.\images\12.png)   
+![alt text](./images/10.png)
+![alt text](./images/11.png)   
+![alt text](./images/12.png)   
 
-![alt text](.\images\13.png)     
+![alt text](./images/13.png)     
 
 
 ## 函数重载   OverLoading 
@@ -71,15 +71,15 @@ inline int func(int a, int b) {
 > 上面第二点补充说明:  
 只有当两个函数的参数类型或者参数数量不同的时候，才能构成重载函数，如果仅仅是因为参数名称不同，而类型和数量都相同的话，这两个函数实际就是一个函数，如果编译的话会被认为是**函数的重定义**。  
 
-![alt text](.\images\14.png)     
-![alt text](.\images\15.png) 
-![alt text](.\images\16.png)  
+![alt text](./images/14.png)     
+![alt text](./images/15.png) 
+![alt text](./images/16.png)  
 
-![alt text](.\images\17.png)  
-![alt text](.\images\18.png) 
-![alt text](.\images\19.png)   
-![alt text](.\images\20.png)   
-![alt text](.\images\21.png)    
+![alt text](./images/17.png)  
+![alt text](./images/18.png) 
+![alt text](./images/19.png)   
+![alt text](./images/20.png)   
+![alt text](./images/21.png)    
 
 
 # 函数指针 Function pointer 
@@ -95,7 +95,7 @@ inline int func(int a, int b) {
 
 ```    
 
-![alt text](.\images\23.png)  
-![alt text](.\images\22.png)    
+![alt text](./images/23.png)  
+![alt text](./images/22.png)    
 
 
